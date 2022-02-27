@@ -193,7 +193,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Integer multiply(int multiplicand, int multiplier) {
-        return null;
+        int resultMultiply = multiplicand * multiplier;
+        return resultMultiply;
     }
 
     /**
@@ -202,7 +203,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Long multiply(long multiplicand, long multiplier) {
-        return null;
+        long resultMultiply = multiplicand * multiplier;
+        return resultMultiply;
     }
 
     /**
@@ -211,7 +213,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Short multiply(short multiplicand, short multiplier) {
-        return null;
+        short resultMultiply = (short) (multiplicand * multiplier);
+        return resultMultiply;
     }
     /**
      * @param multiplicand value to be multiplied
@@ -219,7 +222,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Byte multiply(byte multiplicand, byte multiplier) {
-        return null;
+        byte resultMultiply = (byte) (multiplicand * multiplier);
+        return resultMultiply;
     }
 
     /**
@@ -228,7 +232,8 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Float multiply(float multiplicand, float multiplier) {
-        return null;
+        float resultMultiply = multiplicand * multiplier;
+        return resultMultiply;
     }
 
     /**
@@ -237,6 +242,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Double multiply(double multiplicand, double multiplier) {
-        return null;
+        double resultMultiply = multiplicand * multiplier;
+        return resultMultiply;
     }
 }
