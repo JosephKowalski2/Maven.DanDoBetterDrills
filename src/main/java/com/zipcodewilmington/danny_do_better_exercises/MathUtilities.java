@@ -71,7 +71,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Integer subtract(int baseValue, int difference) {
-        return null;
+        int resultSub = baseValue - difference;
+        return resultSub;
     }
 
     /**
@@ -80,7 +81,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Long subtract(long baseValue, long difference) {
-        return null;
+        long resultSub = baseValue - difference;
+        return resultSub;
     }
 
     /**
@@ -89,7 +91,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Short subtract(short baseValue, short difference) {
-        return null;
+        short resultSub = (short) (baseValue - difference);
+        return resultSub;
     }
 
     /**
@@ -98,7 +101,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Byte subtract(byte baseValue, byte difference) {
-        return null;
+        byte resultSub = (byte) (baseValue - difference);
+        return resultSub;
     }
 
     /**
@@ -107,7 +111,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Float subtract(float baseValue, float difference) {
-        return null;
+        float resultSub = baseValue - difference;
+        return resultSub;
     }
 
     /**
@@ -116,7 +121,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Double subtract(double baseValue, double difference) {
-        return null;
+        double resultSub = baseValue - difference;
+        return resultSub;
     }
 
 
@@ -126,7 +132,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Integer divide(int dividend, int divisor) {
-        return null;
+        int resultDiv = dividend / divisor;
+        return resultDiv;
     }
 
     /**
