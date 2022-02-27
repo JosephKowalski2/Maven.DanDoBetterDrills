@@ -56,7 +56,7 @@ public class StringUtilities {
      * @return the equivalence of two strings, `inputValue` and `comparableValue`
      */
     public static Boolean compareTwoStrings(String inputValue, String comparableValue){
-        return null;
+        return inputValue.equals(comparableValue);
     }
 
     /**
@@ -64,7 +64,15 @@ public class StringUtilities {
      * @return the middle character of `inputValue`
      */
     public static Character getMiddleCharacter(String inputValue){
-        return null;
+        int strLength = inputValue.length();
+        int middleVal = 0;
+        if (strLength % 2 == 0){
+            middleVal = (strLength / 2) - 1;
+        }
+        else {
+            middleVal = strLength / 2;
+        }
+        return inputValue.charAt(middleVal);
     }
 
     /**
